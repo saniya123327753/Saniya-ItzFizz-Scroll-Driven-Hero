@@ -11,13 +11,17 @@ The intro headline block fades away.
 Reversible — Scrolling back up plays everything in reverse, because the whole animation is scrubbed to scroll progress.
 
 ** Tech stack & why
-Tool	What I used it for
-React	Component-based UI — the hero is one reusable component
-TypeScript	Type-safe code, fewer silly bugs
-GSAP + ScrollTrigger	The animation engine. ScrollTrigger pins the section and scrubs the timeline to scroll position
+Tool	What I used it for:-
+React	Component-based UI
+The hero is one reusable component
+TypeScript	Type-safe code, fewer silly bugs GSAP + ScrollTrigger
+The animation engine.
+ScrollTrigger pins the section and scrubs the timeline to scroll position
 Tailwind CSS v4	Utility-first styling and the theme (colors, fonts) defined as CSS variables
-Vite (TanStack Start)	Dev server and build tooling — instant hot reload while developing
-How the animation works (the core idea)
+Vite (TanStack Start)	Dev server and build tooling 
+instant hot reload while developing
+
+How the animation works (the core idea):-
 A GSAP timeline is created with scrollTrigger: { pin: true, scrub: 1, end: "+=250%" } — the section stays pinned for 2.5 screens of scrolling and every tween is tied to scroll progress (scrub).
 The car's x position is animated by a distance calculated from the road width, so it works on any screen size (invalidateOnRefresh recalculates on resize).
 Only transform and opacity are animated — these are GPU-composited, so the animation stays smooth at 60fps.
@@ -31,11 +35,12 @@ src/
 ├── routes/
 │   ├── index.tsx            # Home page — renders ScrollHero + SEO meta tags
 │   └── __root.tsx           # App shell — fonts, styles, head metadata
-└── styles.css               # Tailwind theme: colors, fonts, custom tokens
+└── styles.css  
+
 Run it locally
 npm install
 npm run dev
-Then open the local URL shown in the terminal (e.g. http://localhost:5173).
+Then open the local URL shown in the terminal (http://localhost:8080/).
 
 Customize it
 Headline text — edit the HEADLINE constant at the top of src/components/ScrollHero.tsx.
