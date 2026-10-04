@@ -2,7 +2,7 @@ Itzfizz:— Scroll-Driven Hero Animation:
 
 A scroll-driven hero section I built as part of the Itzfizz assignment. A sports car drives across a road as you scroll, revealing the headline letters behind it, while stat cards rise in from the bottom. Everything is powered by the user's scroll — no timers, no autoplay this repository's link( i will give it remember me)
 
-** What it does
+** What it does:-
 
 Hero (first screen) — A big letter-spaced headline WELCOMEITZFIZZ with four stat cards (58%, 23%, 27%, 40%) that animate in with a staggered fade/slide on page load.
 Scroll animation — The section pins to the screen while you scroll. An orange sports car moves from the left to the right of the road
@@ -12,8 +12,10 @@ Four stat cards rise up from the bottom
 The intro headline block fades away.
 Reversible:— Scrolling back up plays everything in reverse, because the whole animation is scrubbed to scroll progress.
 
-** Tech stack & why
+** Tech stack & why:-
+
 Tool	What I used it for:-
+
 React	Component-based UI
 The hero is one reusable component
 TypeScript	Type-safe code, fewer silly bugs GSAP + ScrollTrigger
