@@ -1,6 +1,6 @@
 Itzfizz:— Scroll-Driven Hero Animation:
 
-A scroll-driven hero section I built as part of the Itzfizz assignment. A sports car drives across a road as you scroll, revealing the headline letters behind it, while stat cards rise in from the bottom. Everything is powered by the user's scroll — no timers, no autoplay this repository's link( i will give it remember me)
+A scroll-driven hero section I built as part of the Itzfizz assignment. A sports car drives across a road as you scroll, revealing the headline letters behind it, while stat cards rise in from the bottom. Everything is powered by the user's scroll — no timers, no autoplay this repository's link(https://github.com/saniya123327753/Saniya-ItzFizz-Scroll-Driven-Hero.git).
 
 ** What it does:-
 
